@@ -34,6 +34,26 @@ module.exports = withModuleFederationPlugin({
       strictVersion: true,
       requiredVersion: 'auto',
     },
+    "@angular/material/core": {
+      singleton: true,
+      strictVersion: true,
+      requiredVersion: "auto",
+    },
+    "@angular/material/button": {
+      singleton: true,
+      strictVersion: true,
+      requiredVersion: "auto",
+    },
+    "@angular/material/slide-toggle": {
+      singleton: true,
+      strictVersion: true,
+      requiredVersion: "auto",
+    },
+    '@angular/material/card': {
+      singleton: true,
+      strictVersion: true,
+      requiredVersion: "auto",
+    }
   }),
 
   // Explicitly share mono-repo libs:
