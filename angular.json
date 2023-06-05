@@ -27,8 +27,9 @@
 							"projects/shell/src/assets"
 						],
 						"styles": [
-							"projects/shell/src/styles.css"
-						],
+              "@angular/material/prebuilt-themes/indigo-pink.css",
+              "projects/shell/src/styles.css"
+            ],
 						"scripts": [],
 						"extraWebpackConfig": "projects/shell/webpack.config.js",
 						"commonChunk": false
@@ -104,8 +105,9 @@
 							"projects/shell/src/assets"
 						],
 						"styles": [
-							"projects/shell/src/styles.css"
-						],
+              "@angular/material/prebuilt-themes/indigo-pink.css",
+              "projects/shell/src/styles.css"
+            ],
 						"scripts": []
 					}
 				}
