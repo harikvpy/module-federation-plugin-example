@@ -49,6 +49,11 @@ module.exports = withModuleFederationPlugin({
       singleton: true,
       strictVersion: true,
       requiredVersion: "auto",
+    },
+    '@angular/material/icon': {
+      singleton: true,
+      strictVersion: true,
+      requiredVersion: "auto",
     }
   }),
 
